@@ -1,2 +1,2 @@
 # Coisas-ilegais
-CU
+Just for educacional use.
