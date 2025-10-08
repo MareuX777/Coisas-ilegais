@@ -963,6 +963,7 @@ while True:
         arp_spoof()
     elif ask.lower() == "fuzzer":
         fuzzer()
-
+    elif ask.lower() == "ips":
+        os.system("arp -a")
     else:
         print(Fore.RED + f"Comando '{ask}' é inválido ou inoperável! Se tiver dúvidas, digite help.")
