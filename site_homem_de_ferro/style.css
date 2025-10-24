@@ -1,0 +1,32 @@
+/* fontes */
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* cores */
+:root{
+  --cor_nav: #7b1c18;
+  --cor_item: #ffd700;
+}
+/* cabeçalho */
+#nav{
+
+  background-color: var(--cor_nav);
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+
+#navegar{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  list-style: none;
+}
+
+.item{
+  color: var(--cor_item);
+  margin: 10px;
+}
